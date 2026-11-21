@@ -1,0 +1,19 @@
+scenario,donors_per_group,method,mean_genes_called,mean_false_discoveries,mean_fdp,mean_power
+100 true DE genes,3,cell-level Wilcoxon,359.75,289.875,0.805,0.699
+100 true DE genes,3,cell-level t-test,466.5,381.25,0.817,0.852
+100 true DE genes,3,pseudobulk DESeq2,28.5,1.5,0.054,0.27
+100 true DE genes,6,cell-level Wilcoxon,366.5,283.25,0.772,0.832
+100 true DE genes,6,cell-level t-test,471.625,376.625,0.798,0.95
+100 true DE genes,6,pseudobulk DESeq2,80.0,5.25,0.066,0.748
+100 true DE genes,10,cell-level Wilcoxon,371.875,283.5,0.762,0.884
+100 true DE genes,10,cell-level t-test,475.75,376.5,0.791,0.992
+100 true DE genes,10,pseudobulk DESeq2,101.375,7.5,0.074,0.939
+no true DE genes,3,cell-level Wilcoxon,273.625,273.625,1.0,
+no true DE genes,3,cell-level t-test,361.0,361.0,1.0,
+no true DE genes,3,pseudobulk DESeq2,0.0,0.0,0.0,
+no true DE genes,6,cell-level Wilcoxon,295.875,295.875,1.0,
+no true DE genes,6,cell-level t-test,381.625,381.625,1.0,
+no true DE genes,6,pseudobulk DESeq2,0.0,0.0,0.0,
+no true DE genes,10,cell-level Wilcoxon,280.25,280.25,1.0,
+no true DE genes,10,cell-level t-test,364.875,364.875,1.0,
+no true DE genes,10,pseudobulk DESeq2,0.0,0.0,0.0,
